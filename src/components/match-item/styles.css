@@ -1,0 +1,62 @@
+.match-item {
+  background: #1e1e1e;
+  padding: 8.5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.team-logo {
+  width: 48px;
+  height: 48px;
+}
+
+.team-name {
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+}
+
+.match-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+.status-badge {
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.scheduled {
+  background: #eb6402;
+  color: black;
+}
+
+.ongoing {
+  background: #43ad28;
+  color: white;
+}
+
+.finished {
+  background: #eb0237;
+  color: white;
+}

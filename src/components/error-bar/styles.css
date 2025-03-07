@@ -1,0 +1,16 @@
+.error-block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #1e1e1e;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.error-message {
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
