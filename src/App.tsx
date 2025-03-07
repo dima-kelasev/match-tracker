@@ -26,7 +26,7 @@ export const App = () => {
         </div>
       </div>
       {isLoading && <Loader />}
-      <div className="match-list">
+      <div className={`match-list ${isRefetching ? 'loading-overlay' : ''}`}>
         {data?.data?.matches?.map((match, i) => (
           <MatchItem match={match} key={`${i}-${match.time}`} />
         ))}

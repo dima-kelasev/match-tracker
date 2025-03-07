@@ -13,7 +13,8 @@ export const RefreshBtn = ({ handleRefresh, isRefreshing }: TRefreshBtn) => {
       onClick={handleRefresh}
       disabled={isRefreshing}
     >
-      Обновить
+      <p>Обновить</p>
+
       <span className={`refresh-icon ${isRefreshing ? 'spinning' : ''}`}>
         <img src={RefreshIcon} alt="Match Tracker Logo" />
       </span>
